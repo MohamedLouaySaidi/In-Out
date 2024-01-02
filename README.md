@@ -1,5 +1,6 @@
 # In & Out
-This project was developped during the web developpment course project
+<img src="img/logo.png" alt="Landing Page" width= 40% >
+This is a website for a restaurant delivery and reservation platform with HTML, CSS and Javascript
 # Screenshots
 ### Landing page
 <img src="screenshots/Landing Page.png" alt="Landing Page" width= 60% >
