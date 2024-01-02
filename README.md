@@ -4,28 +4,28 @@ This is a website for a restaurant delivery and reservation platform with HTML, 
 
 # Screenshots
 ### Landing page
-<img src="screenshots/Landing Page.png" alt="Landing Page" width= 60% >
+<div align= "center"><img src="screenshots/Landing Page.png" alt="Landing Page" width= 60% ></div>
 
 ### Restaurant Search Page
-<img src="screenshots/Restaurant Search Page.png" alt="Landing Page" width= 60%>
+<div align= "center"><img src="screenshots/Restaurant Search Page.png" alt="Landing Page" width= 60%></div>
 
 ### Restaurant List Page
-<img src="screenshots/Restaurant List Page.png" alt="Landing Page" width= 60%>
+<div align= "center"><img src="screenshots/Restaurant List Page.png" alt="Landing Page" width= 60%></div>
 
 ### Restaurant List Page
-<img src="screenshots/Restaurant List Page 2.png" alt="Landing Page" width= 60%>
+<div align= "center"><img src="screenshots/Restaurant List Page 2.png" alt="Landing Page" width= 60%></div>
 
 ### Restaurant Information Page
-<img src="screenshots/Restaurant Information Page.png" alt="Landing Page" width= 60%>
+<div align= "center"><img src="screenshots/Restaurant Information Page.png" alt="Landing Page" width= 60%></div>
 
 ### About Us Page
-<img src="screenshots/About Us Page.png" alt="Landing Page" width= 60%>
+<div align= "center"><img src="screenshots/About Us Page.png" alt="Landing Page" width= 60%></div>
 
 ### Blog Page
-<img src="screenshots/Blog Page.png" alt="Landing Page" width= 60%>
+<div align= "center"><img src="screenshots/Blog Page.png" alt="Landing Page" width= 60%></div>
 
 ### Promos Page
-<img src="screenshots/Promos Page.png" alt="Landing Page" width= 60%>
+<div align= "center"><img src="screenshots/Promos Page.png" alt="Landing Page" width= 60%></div>
 
 ## Credits
 
