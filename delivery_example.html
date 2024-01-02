@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content=" reservation, delivery, booking, dishes" >
+    <meta name="language" content="en">
+    <meta name="description" content="Order food and make reservations online with our easy-to-use platform.
+    Enjoy quality food and convenience with our delivery service. 
+    Reserve a table or place an order now!">
+    <title>Delivery Example</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+
+    <section id="header-restaurant">
+      <div class="column">
+        <a href="index.html"><img src="img/logo.png" class="restaurant-logo logo" alt=""></a>
+      </div>
+      <div class="column">
+        <form class="search" action="">
+          <input class="fadeIn smallIcon1" id="textboxsearch1" type="text" name="what" placeholder=" Cuisine">
+          <input class="fadeIn smallIcon2" id="textboxsearch2" type="text" name="where" placeholder="  Location">
+          <input class="fadeIn smallIcon3" id="textboxsearch3" type="text" name="restaurant" placeholder="  Restaurant Name">
+        </form>
+      </div>
+      <div class="column">
+        <a href="login.html"><span class="hover-underline-animation login-restaurant search-word">Search</span></a>
+      </div>
+    </section>
+
+    <div class="path"><a href="index.html"><img src="img/icon.png" alt=""></a> > <a href="delivery_result.html">Delivery</a> > Go Sushi</div>
+
+    <section class="filter-bar1">
+      <div class="column">
+        <div class="select-size1">
+          <input type="checkbox" name="s-size" onchange="showHide()" id="small1" checked/>
+          <input type="checkbox" name="s-size" onchange="showHide()" id="medium1" />
+          <input type="checkbox" name="s-size" onchange="showHide()" id="large1" />
+          <input type="checkbox" name="s-size" onchange="showHide()" id="x-large1" />
+        
+          <label class="filter1" for="small1"><img src="img/go_sushi.png" alt="">Go Sushi</label>
+          <label class="filter1" for="medium1"><img src="img/le_zink.jpeg" alt="">Le Zink</label>
+          <label class="filter1" for="large1"><img src="img/papa-johns.jpg" alt="">Papa Johns</label>
+          <label class="filter1" for="x-large1"><img src="img/slayta_bar.jpg" alt="">Slayta Bar</label>
+        
+        </div>
+      </div>
+    </section>
+
+    <section class="sushi">
+      <div class="smenu">
+        <div class="srect">
+          <div class="stitle">Menu</div>
+          <h4 class="anim">ACCOMPANMENTS</h4>
+          <h4 class="anim">SNACKING</h4>
+          <h4 class="anim">ENTRÉES</h4>
+          <h4 class="anim">SUSHI</h4>
+          <h4 class="anim">SASHIMI TATAKI</h4>
+          <h4 class="anim">CHIRASHI</h4>
+          <h4 class="anim">SAKEISHI - CEVICHE</h4>
+          <h4 class="anim">POKE</h4>
+          <h4 class="anim">MAKI</h4>
+          <h4 class="anim">CALIFORNIEN</h4>
+          <h4 class="anim">CRISPY</h4>
+          <h4 class="anim">CRUNCHY</h4>
+          <h4 class="anim">FUSION ROLL</h4>
+          <h4 class="anim">FUTOMAKI - KOMODO</h4>
+          <h4 class="anim">GREEN MAKI</h4>
+          <h4 class="anim">YAKITORI</h4>
+          <h4 class="anim">MOGU MOGU</h4>
+        </div>
+      </div>
+      <div id="mcont" class="scontent">
+        <div id="btitle" class="mtitle">SUSHI</div>
+        <div id="test">
+          <h3 id="m1" class="anim">SALMON NIGIRI<span class="pos">- 1 + <span class="sback">ADD</span></span></h3>
+        <h2 id="m11">2 rooms  -  9,000 DT</h2>
+        <h3 id="m2">NIGIRI CHESSY SALMON<span class="pos">- 1 + <span class="sback">ADD</span></span></h3>
+        <h2 id="m22">2 rooms  -  9,000 DT</h2>
+        <h3 id="m3">NIGIRI UNAGI LAWYER<span class="pos">- 1 + <span class="sback">ADD</span></span></h3>
+        <h2 id="m33">2 pieces -  11,500 DT</h2>
+        <h3 id="m4">NIGIRI EBI<span class="pos">- 1 + <span class="sback">ADD</span></span></h3>
+        <h2 id="m44">2 rooms  -  8,500 DT</h2>
+        <h3 id="m5">NIGIRI DAURADE<span class="pos">- 1 + <span class="sback">ADD</span></span></h3>
+        <h2 id="m55">2 pieces  -  8,500 DT</h2>
+        <h3 id="m6">GUNKAN MASAGO<span class="pos">- 1 + <span class="sback">ADD</span></span></h3>
+        <h2 id="m66">2 rooms  -  9,000 DT</h2>
+        <h3 id="m7">GUNKAN IKURA<span class="pos">- 1 + <span class="sback">ADD</span></span></h3>
+        <h2 id="m77">2 pieces  -  13,000 DT</h2>
+        <h3 id="m8">GUNKAN SALMON<span class="pos">- 1 + <span class="sback">ADD</span></span></h3>
+        <h2 id="m88">2 rooms  -  9,000 DT</h2>
+        </div>
+        
+      </div>
+      <div class="smenu">
+        <div class="srect srect1">
+          <div class="stitle">My Cart</div>
+          <h4>Your basket is empty.</h4>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section1">
+      <div class="col">
+        <img class="logofoot" src="img/logo.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> El-Manar University Campus, 2092 El Manar Tunis</p>
+        <p><strong>Phone:</strong> +216 01 234 567 /(+216) 76 543 210</p>
+        <p><strong>Hours:</strong> 10:00 - 20:00, Mon - Sun</p>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">More Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="col follow">
+          <h4>Let's Get Social</h4>
+          <div class="row">
+            <a href="https://www.twitter.com" target="_blank"><img src="img/twitter.png" alt=""></a>
+            <a href="https://www.gmail.com" target="_blank"><img src="img/gmail.png" alt=""></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt=""></a>
+          </div>
+      </div>
+      <div class="copyright">
+        <p>&copy;2023 In & Out · Terms & Conditions · Cookies · Privacy policy · Unsubscribe from newsletter</p>
+      </div>
+    </footer>
+
+
+    <script src="script.js" defer></script>
+    <script>
+      function showHide(){
+        let checkbox1 = document.getElementById("small1");
+        let checkbox2 = document.getElementById("medium1");
+        let checkbox3 = document.getElementById("large1");
+        let checkbox4 = document.getElementById("x-large1");
+        if(checkbox1.checked){
+          checkbox2.checked = false;
+          checkbox3.checked = false;
+          checkbox4.checked = false;
+          const restaurant = [
+          {
+            id: 1,
+            image: 'm1' ,
+            image1: 'm11' ,
+            title: 'SALMON NIGIRI' ,
+            price: '2 rooms  -  9,000 DT',
+          },
+          {
+            id: 2,
+            image: 'm2' ,
+            image1: 'm22' ,
+            title: 'NIGIRI CHESSY SALMON' ,
+            price: '2 rooms  -  9,000 DT',
+          },
+          {
+            id: 3,
+            image: 'm3' ,
+            image1: 'm33' ,
+            title: 'NIGIRI UNAGI LAWYER' ,
+            price: '2 pieces -  11,500 DT',
+          },
+          {
+            id: 4,
+            image: 'm4' ,
+            image1: 'm44' ,
+            title: 'NIGIRI EBI' ,
+            price: '2 rooms  -  8,500 DT',
+          },
+          {
+            id: 5,
+            image: 'm5' ,
+            image1: 'm55' ,
+            title: 'NIGIRI DAURADE' ,
+            price: '2 pieces  -  8,500 DT',
+          },
+          {
+            id: 6,
+            image: 'm6' ,
+            image1: 'm66' ,
+            title: 'GUNKAN MASAGO' ,
+            price: '2 rooms  -  9,000 DT',
+          },
+          {
+            id: 7,
+            image: 'm7' ,
+            image1: 'm77' ,
+            title: 'GUNKAN IKURA' ,
+            price: '2 pieces  -  13,000 DT',
+          },
+          {
+            id: 8,
+            image: 'm8' ,
+            image1: 'm88' ,
+            title: 'GUNKAN SALMON' ,
+            price: '2 rooms  -  9,500 DT',
+          },
+        ]
+
+        const categories = [...new Set(restaurant.map((item)=>
+          {return item}))]
+
+          let cart = document.getElementById('test')
+          cart.innerHTML = categories.map((item)=>
+          {
+            var{image, image1, title, price, titre} = item;
+            return(
+              `<h3 id="${image}" class="anim">${title}<span class="pos">- 1 + <span class="sback">ADD</span></span></h3>
+              <h2 id="${image1}">${price}</h2>`
+            )
+          }).join('')
+          let btitle = document.getElementById("btitle");
+          btitle.innerHTML = "SUSHI";
+        }
+        if(checkbox2.checked){
+          checkbox1.checked = false;
+          checkbox3.checked = false;
+          checkbox4.checked = false;
+          const restaurant = [
+          {
+            id: 1,
+            image: 'm1' ,
+            image1: 'm11' ,
+            title: 'LA BELLUCCI' ,
+            price: '27,000 DT',
+          },
+          {
+            id: 2,
+            image: 'm2' ,
+            image1: 'm22' ,
+            title: 'LE CHRISTEMENT-BON' ,
+            price: '26,000 DT',
+          },
+          {
+            id: 3,
+            image: 'm3' ,
+            image1: 'm33' ,
+            title: 'LE CORDON ROUGE' ,
+            price: '26,000 DT',
+          },
+          {
+            id: 4,
+            image: 'm4' ,
+            image1: 'm44' ,
+            title: 'LE CHEESE-ME' ,
+            price: '25,000 DT',
+          },
+          {
+            id: 5,
+            image: 'm5' ,
+            image1: 'm55' ,
+            title: 'EL CORRIDA' ,
+            price: '26,000 DT',
+          },
+          {
+            id: 6,
+            image: 'm6' ,
+            image1: 'm66' ,
+            title: 'THE MAMI CHILLI BURGER' ,
+            price: '26,000 DT',
+          },
+          {
+            id: 7,
+            image: 'm7' ,
+            image1: 'm77' ,
+            title: 'L HERBIVORE' ,
+            price: '16,000 DT',
+          },
+        ]
+
+        const categories = [...new Set(restaurant.map((item)=>
+          {return item}))]
+
+          let cart = document.getElementById('test')
+          cart.innerHTML = categories.map((item)=>
+          {
+            var{image, image1, title, price, titre} = item;
+            return(
+              `<h3 id="${image}" class="anim">${title}<span class="pos">- 1 + <span class="sback">ADD</span></span></h3>
+              <h2 id="${image1}">${price}</h2>`
+            )
+          }).join('')
+          let btitle = document.getElementById("btitle");
+          btitle.innerHTML = "BURGER";
+          
+        }
+        if(checkbox3.checked){
+          checkbox2.checked = false;
+          checkbox1.checked = false;
+          checkbox4.checked = false;
+          const restaurant = [
+          {
+            id: 1,
+            image: 'm1' ,
+            image1: 'm11' ,
+            title: 'PIZZA CHEESE' ,
+            price: '9,900 DT',
+          },
+          {
+            id: 2,
+            image: 'm2' ,
+            image1: 'm22' ,
+            title: 'PIZZA MARINERA' ,
+            price: '12,500 DT',
+          },
+          {
+            id: 3,
+            image: 'm3' ,
+            image1: 'm33' ,
+            title: 'PIZZA GARDEN SPECIAL' ,
+            price: '12,500 DT',
+          },
+          {
+            id: 4,
+            image: 'm4' ,
+            image1: 'm44' ,
+            title: 'PIZZA CHICKEN BBQ' ,
+            price: '10,000 DT',
+          },
+        ]
+
+        const categories = [...new Set(restaurant.map((item)=>
+          {return item}))]
+
+          let cart = document.getElementById('test')
+          cart.innerHTML = categories.map((item)=>
+          {
+            var{image, image1, title, price, titre} = item;
+            return(
+              `<h3 id="${image}" class="anim">${title}<span class="pos">- 1 + <span class="sback">ADD</span></span></h3>
+              <h2 id="${image1}">${price}</h2>`
+            )
+          }).join('')
+          let btitle = document.getElementById("btitle");
+          btitle.innerHTML = "PIZZA";
+          
+        }
+        if(checkbox4.checked){
+          checkbox2.checked = false;
+          checkbox3.checked = false;
+          checkbox1.checked = false;
+          const restaurant = [
+          {
+            id: 1,
+            image: 'm1' ,
+            image1: 'm11' ,
+            title: 'SALADE CESAR' ,
+            price: '17,500 DT',
+          },
+          {
+            id: 2,
+            image: 'm2' ,
+            image1: 'm22' ,
+            title: 'SALADE DE RIZ' ,
+            price: '16,500 DT',
+          },
+          {
+            id: 3,
+            image: 'm3' ,
+            image1: 'm33' ,
+            title: 'SALADE GOURMANDE' ,
+            price: '17,000 DT',
+          },
+          {
+            id: 4,
+            image: 'm4' ,
+            image1: 'm44' ,
+            title: 'SALADE ITALIANA' ,
+            price: '20,000 DT',
+          },
+          {
+            id: 5,
+            image: 'm5' ,
+            image1: 'm55' ,
+            title: 'SALADE "100gr PROTEINE"' ,
+            price: '17,000 DT',
+          },
+          {
+            id: 6,
+            image: 'm6' ,
+            image1: 'm66' ,
+            title: 'SALADE FAJITAS POULET' ,
+            price: '24,000 DT',
+          },
+          {
+            id: 7,
+            image: 'm7' ,
+            image1: 'm77' ,
+            title: 'SALADE FAJITAS CREVETTE' ,
+            price: '31,500 DT',
+          },
+          {
+            id: 8,
+            image: 'm8' ,
+            image1: 'm88' ,
+            title: 'SALADE KETO' ,
+            price: '22,000 DT',
+          },
+          {
+            id: 9,
+            image: 'm9' ,
+            image1: 'm99' ,
+            title: 'SALADE WOK THAI' ,
+            price: '25,000 DT',
+          },
+        ]
+
+        const categories = [...new Set(restaurant.map((item)=>
+          {return item}))]
+
+          let cart = document.getElementById('test')
+          cart.innerHTML = categories.map((item)=>
+          {
+            var{image, image1, title, price, titre} = item;
+            return(
+              `<h3 id="${image}" class="anim">${title}<span class="pos">- 1 + <span class="sback">ADD</span></span></h3>
+              <h2 id="${image1}">${price}</h2>`
+            )
+          }).join('')
+          let btitle = document.getElementById("btitle");
+          btitle.innerHTML = "SALAD";
+        }
+      }
+    </script>
+  </body>
+</html>

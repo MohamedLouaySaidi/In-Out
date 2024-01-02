@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content=" reservation, delivery, booking, dishes" >
+    <meta name="language" content="en">
+    <meta name="description" content="Order food and make reservations online with our easy-to-use platform.
+    Enjoy quality food and convenience with our delivery service. 
+    Reserve a table or place an order now!">
+    <title>Restaurant Result</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <section id="header-restaurant">
+      <div class="column">
+        <a href="index.html"><img src="img/logo.png" class="restaurant-logo logo" alt=""></a>
+      </div>
+      <div class="column">
+        <form class="search" action="">
+          <input class="fadeIn smallIcon1" id="textboxsearch1" type="text" name="what" placeholder=" Cuisine">
+          <input class="fadeIn smallIcon2" id="textboxsearch2" type="text" name="where" placeholder="  Location">
+          <input class="fadeIn smallIcon3" id="textboxsearch3" type="text" name="restaurant" placeholder="  Restaurant Name">
+        </form>
+      </div>
+      <div class="column">
+        <a href="login.html"><span class="hover-underline-animation login-restaurant search-word">Search</span></a>
+      </div>
+    </section>
+
+    <section class="filter-bar">
+      <div class="column">
+        <form class="search" action="">
+          <input class="fadeIn" id="textboxfilter1" type="date" name="date">
+          <input class="fadeIn" id="textboxfilter2" type="time" name="time">
+          <input class="fadeIn" id="textboxfilter3" type="number" name="preson" min="0" placeholder="Person">
+        </form>
+      </div>
+      <div class="column">
+        <div class="select-size">
+          <input type="checkbox" name="s-size" id="small"/>
+          <input type="checkbox" name="s-size" id="medium" />
+          <input type="checkbox" name="s-size" id="large" />
+          <input type="checkbox" name="s-size" id="x-large" />
+          <input type="checkbox" name="s-size" id="xx-large" />
+        
+          <label class="filter" for="small">Special Offers</label>
+          <label class="filter" for="medium">Best Rated</label>
+          <label class="filter" for="large">Accepting My Points</label>
+          <label class="filter" for="x-large">In & Out Special</label>
+          <label class="filter" for="xx-large">Family Friendly</label>
+        
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div id="root"></div>
+      <div class="sidebar">
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994583.4973860593!2d9.023739362044616!3d34.80957234940293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x125595448316a4e1%3A0x3a84333aaa019bef!2sTunisie!5e0!3m2!1sfr!2stn!4v1682794517368!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="view"><a href="https://maps.google.com/maps?ll=33.985867,9.560764&z=7&t=m&hl=fr&gl=TN&mapclient=embed&q=Tunisie" target="_blank">View Map</a></div>
+      </div>
+    </div>
+
+    <footer class="section1">
+      <div class="col">
+        <img class="logofoot" src="img/logo.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> El-Manar University Campus, 2092 El Manar Tunis</p>
+        <p><strong>Phone:</strong> +216 01 234 567 /(+216) 76 543 210</p>
+        <p><strong>Hours:</strong> 10:00 - 20:00, Mon - Sun</p>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">More Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="col follow">
+          <h4>Let's Get Social</h4>
+          <div class="row">
+            <a href="https://www.twitter.com" target="_blank"><img src="img/twitter.png" alt=""></a>
+            <a href="https://www.gmail.com" target="_blank"><img src="img/gmail.png" alt=""></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt=""></a>
+          </div>
+      </div>
+      <div class="copyright">
+        <p>&copy;2023 In & Out · Terms & Conditions · Cookies · Privacy policy · Unsubscribe from newsletter</p>
+      </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
