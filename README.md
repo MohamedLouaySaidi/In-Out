@@ -1,4 +1,4 @@
-# In-Out
+# In & Out
 This project was developped during the web developpment course project
 # Screenshots
 ### Landing page
@@ -24,3 +24,11 @@ This project was developped during the web developpment course project
 
 ### Promos Page
 <img src="screenshots/Promos Page.png" alt="Landing Page" width= 60%>
+
+## Credits
+
+This project was developed by:
+- [Mohamed Louay Saidi](https://github.com/MohamedLouaySaidi)
+- [Syrine Meksi](https://github.com/MeksiSyrine)
+- Imen Alouani
+- Sahar Ougi Boughanmi
