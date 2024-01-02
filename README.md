@@ -2,7 +2,7 @@
 This project was developped during the web developpment course project
 # Screenshots
 ### Landing page
-<img src="screenshots/Landing Page.png" alt="Landing Page">
+<img src="screenshots/Landing Page.png" alt="Landing Page" width= 40% >
 
 ### Restaurant Search Page
 <img src="screenshots/Restaurant Search Page.png" alt="Landing Page">
