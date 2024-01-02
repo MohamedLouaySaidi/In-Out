@@ -1,5 +1,5 @@
 # In & Out
-<img src="img/logo.png" alt="Landing Page" width= 40% display: block margin-left: auto margin-right: auto >
+<img src="img/logo.png" alt="Landing Page" width= 40% text-align: center >
 This is a website for a restaurant delivery and reservation platform with HTML, CSS and Javascript
 
 # Screenshots
